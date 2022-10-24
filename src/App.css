@@ -37,26 +37,35 @@ h1 {
 input {
   width: 13rem;
   padding: 0.5rem;
-  color: white;
+
   cursor: pointer;
   transition: 0.5s;
   font-size: 0.8rem;
-  margin-top: 2rem;
+  margin-bottom: 2rem;
   letter-spacing: 2px;
 }
 
 input:nth-child(3) {
+  color: white;
+  border-radius: 2px;
   background-color: #2a6aa5;
   border: 1px solid transparent;
 }
 
 input:nth-child(3):hover {
   color: #2a6aa5;
-  border: 1px solid #2a6aa5;
   background-color: white;
+  border: 1px solid #2a6aa5;
 }
 
 form {
   display: flex;
   flex-direction: column;
+}
+
+p {
+  color: red;
+  text-align: center;
+  margin: 1rem 0;
+  transition: 1s;
 }
